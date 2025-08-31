@@ -319,8 +319,8 @@ async function collectPremiumData() {
 }
 
 // Scheduled data collection
-setInterval(collectFreeData, 60 * 60 * 1000); // Every hour
-setInterval(collectPremiumData, 60 * 60 * 1000 * 6); // Every 6 hours
+// setInterval(collectFreeData, 60 * 60 * 1000); // Every hour
+// setInterval(collectPremiumData, 60 * 60 * 1000 * 6); // Every 6 hours
 
 // ========================================
 // DATABASE SCHEMA SETUP
